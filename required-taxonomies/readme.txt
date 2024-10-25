@@ -1,8 +1,8 @@
 === WP Required Taxonomies - Categories and Tags Mandatory ===
-Contributors: vegacorp,josevega,, freemius
+Contributors: vegacorp,josevega
 Tags: required, categories, tags, taxonomies, woocommerce
-Tested up to: 6.5
-Stable tag: 1.2.0
+Tested up to: 6.6
+Stable tag: 1.2.1
 Requires at least: 3.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -62,6 +62,9 @@ Currently it works with posts only.
 1. validation message
 
 == Changelog ==
+
+= 1.2.1 - 2024-10-24 =
+* Fix php warnings
 
 = 1.2.0 =
 * Rewrite the validation code to improve issues in the Classic editor and Block editor

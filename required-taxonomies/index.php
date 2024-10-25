@@ -3,7 +3,7 @@
 /*
 	Plugin Name: Required taxonomies
 	Description: Force users to select a taxonomy term, for example, category or tag, when publishing posts.
-	Version: 1.2.0
+	Version: 1.2.1
 	Author: VegaCorp
 	Author URI: http://vegacorp.me
 	Plugin URI: http://wpsheeteditor.com
@@ -22,8 +22,10 @@ if ( ! class_exists( 'VG_Required_Taxonomies' ) ) {
 		private static $instance = false;
 		static $textname         = 'vg_admin_to_frontend';
 		static $dir              = __DIR__;
-		static $version          = '1.2.0';
+		static $version          = '1.2.1';
 		static $name             = 'Required Taxonomies';
+		public $args             = array();
+		public $vg_plugin_sdk    = null;
 
 		private function __construct() {
 		}
